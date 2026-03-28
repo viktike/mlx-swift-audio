@@ -22,10 +22,10 @@
     {
       "identity" : "mlx-swift-lm",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/ml-explore/mlx-swift-lm",
+      "location" : "https://github.com/viktike/mlx-swift-lm",
       "state" : {
-        "branch" : "main",
-        "revision" : "74f85d9505032ec3403c94ba159472244fe78767"
+        "branch" : "viktike",
+        "revision" : "b0b257d456133670658dee9472fd94545e7bb019"
       }
     },
     {
