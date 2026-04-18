@@ -18,10 +18,10 @@ let package = Package(
   ],
   dependencies: [
     // TODO: Switch from this pinned revision to a major-version dependency once mlx-swift-lm publishes a release that includes PR #118.
-    .package(url: "https://github.com/ml-explore/mlx-swift-lm.git", revision: "8c9dd6391139242261bcf27d253c326f9cf2d567"),
+    .package(url: "https://github.com/viktike/vmlx-swift-lm.git", branch: "new"),
     .package(url: "https://github.com/osaurus-ai/mlx-swift", branch: "osaurus-0.31.3"),
-    .package(url: "https://github.com/DePasqualeOrg/swift-tokenizers-mlx", branch: "main", traits: ["Swift"]),
-    .package(url: "https://github.com/DePasqualeOrg/swift-hf-api-mlx", branch: "main"),
+    .package(url: "https://github.com/viktike/swift-tokenizers-mlx", branch: "new", traits: ["Swift"]),
+    .package(url: "https://github.com/viktike/swift-hf-api-mlx", branch: "new"),
     .package(url: "https://github.com/DePasqualeOrg/swift-tiktoken", branch: "main"),
     // espeak-ng is GPLv3 licensed - only linked when using Kokoro
     // TODO: Switch back to upstream after https://github.com/espeak-ng/espeak-ng/pull/2327 is merged
@@ -31,8 +31,8 @@ let package = Package(
     .target(
       name: "MLXAudio",
       dependencies: [
-        .product(name: "MLXLMCommon", package: "mlx-swift-lm"),
-        .product(name: "MLXLLM", package: "mlx-swift-lm"),
+        .product(name: "MLXLMCommon", package: "vmlx-swift-lm"),
+        .product(name: "MLXLLM", package: "vmlx-swift-lm"),
         .product(name: "MLXFFT", package: "mlx-swift"),
         .product(name: "MLXLMTokenizers", package: "swift-tokenizers-mlx"),
         .product(name: "MLXLMHFAPI", package: "swift-hf-api-mlx"),

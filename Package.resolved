@@ -1,5 +1,5 @@
 {
-  "originHash" : "eee9aac5690d8c5f0229089be6ae67abce7662e8020df44b41b2d45cef0023d1",
+  "originHash" : "e53249acd9798e1805ebbda9c9974fdd134a57a46c82c6c224255b1dd4210987",
   "pins" : [
     {
       "identity" : "espeak-ng-spm",
@@ -20,20 +20,12 @@
       }
     },
     {
-      "identity" : "mlx-swift-lm",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/ml-explore/mlx-swift-lm.git",
-      "state" : {
-        "revision" : "8c9dd6391139242261bcf27d253c326f9cf2d567"
-      }
-    },
-    {
       "identity" : "swift-asn1",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-asn1.git",
       "state" : {
-        "revision" : "9f542610331815e29cc3821d3b6f488db8715517",
-        "version" : "1.6.0"
+        "revision" : "eb50cbd14606a9161cbc5d452f18797c90ef0bab",
+        "version" : "1.7.0"
       }
     },
     {
@@ -50,8 +42,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-crypto",
       "state" : {
-        "revision" : "bb4ba815dab96d4edc1e0b86d7b9acf9ff973a84",
-        "version" : "4.3.1"
+        "revision" : "476538ccb827f2dd18efc5de754cc87d77127a47",
+        "version" : "4.4.0"
       }
     },
     {
@@ -75,10 +67,10 @@
     {
       "identity" : "swift-hf-api-mlx",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/DePasqualeOrg/swift-hf-api-mlx",
+      "location" : "https://github.com/viktike/swift-hf-api-mlx",
       "state" : {
-        "branch" : "main",
-        "revision" : "cad9046c590bd6648ef8dba0a5b62c2b61007cf4"
+        "branch" : "new",
+        "revision" : "f843339aa647f435ae45b553ca5c67c2b8a65f65"
       }
     },
     {
@@ -138,10 +130,10 @@
     {
       "identity" : "swift-tokenizers-mlx",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/DePasqualeOrg/swift-tokenizers-mlx",
+      "location" : "https://github.com/viktike/swift-tokenizers-mlx",
       "state" : {
-        "branch" : "main",
-        "revision" : "0cdb1623da387604dc61308bf1ec4a88791474fa"
+        "branch" : "new",
+        "revision" : "135133f593aef617fa3b32206e6ccb5edb316410"
       }
     },
     {
@@ -151,6 +143,15 @@
       "state" : {
         "revision" : "d6ace41073825e04fc7a8441ab4613afcf7fd32f",
         "version" : "0.1.1"
+      }
+    },
+    {
+      "identity" : "vmlx-swift-lm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/viktike/vmlx-swift-lm.git",
+      "state" : {
+        "branch" : "new",
+        "revision" : "eba33a468b1e7f08e57caf8c76b9fb546a25d277"
       }
     },
     {
